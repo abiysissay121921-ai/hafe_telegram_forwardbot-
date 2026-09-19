@@ -74,7 +74,7 @@ def create_full_message(cleaned):
     if cleaned:
         return f"{cleaned}\n\n{intro}\n\n{your_link}\n\n\n📢 @AAU2019Students!"
     else:
-        return f"{intro}\n\n{your_link}\n\n\n📢 @AAU2019Students!"
+        return f"{intro}\n\n{your_link}\n\n\n📢 @AAU2019Students"
 
 async def send_long(channel, message):
     chunks = split_message(message)
