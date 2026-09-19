@@ -72,9 +72,9 @@ def split_message(text, max_len=4000):
 def create_full_message(cleaned):
     intro = "የቴሌግራም ቻናላችን join በማድረግ ወቅታዊ መረጃዎችን በቀላሉ ይከታተሉ!"
     if cleaned:
-        return f"{cleaned}\n\n{intro}\n\n{your_link}\n{your_link}\n{your_link}\n📢 @AAU2019Students!"
+        return f"{cleaned}\n\n{intro}\n\n{your_link}\n\n\n📢 @AAU2019Students!"
     else:
-        return f"{intro}\n\n{your_link}\n{your_link}\n{your_link}\n📢 @AAU2019Students!"
+        return f"{intro}\n\n{your_link}\n\n\n📢 @AAU2019Students!"
 
 async def send_long(channel, message):
     chunks = split_message(message)
