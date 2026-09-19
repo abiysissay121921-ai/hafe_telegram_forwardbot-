@@ -20,9 +20,8 @@ if not STRING_SESSION:
     exit(1)
 
 source_channels = [
-    "TikvahUniversity",
-    "seledadotio",
-    "abiyselol",
+    "aau_official",
+    "AAUMEREJA",
     "hafie_tebabari",
 ]
 target_channel = "AAU2019Students"
