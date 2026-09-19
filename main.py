@@ -23,7 +23,7 @@ source_channels = [
     "TikvahUniversity",
     "seledadotio",
     "abiyselol",
-    "zena24now",
+    "hafie_tebabari",
 ]
 target_channel = "AAU2019Students"
 your_link = "https://t.me/AAU2019Students"
